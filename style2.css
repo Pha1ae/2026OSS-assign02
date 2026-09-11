@@ -1,0 +1,117 @@
+body {
+    margin: 20px;
+    font: 100% "Courier New", monospace;
+    color: #84c754;
+    background-color: black;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: white;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px;
+}
+
+.top {
+    margin: 0;
+}
+
+header {
+    margin: 4px;
+    padding: 15px;
+}
+
+nav {
+    flex: 0 0 auto;
+    padding: 15px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    display: block;
+    line-height: 1.4;
+    color: #84c754;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    flex: 0 0 100%;
+    order: 1;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+aside {
+    flex: 0 0 340px;
+    box-sizing: border-box;
+    min-width: 0;
+    margin-left: auto;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 6px;
+    color: white;
+}
+
+aside h3 {
+    margin: 0 0 8px;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+aside p {
+    margin: 0;
+}
+
+footer {
+    margin: 4px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 12px;
+    color: white;
+}
+
+@media (max-width: 580px) {
+    .layout {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    main,
+    aside {
+        flex: none;
+    }
+
+    main {
+        order: 0;
+    }
+
+    aside {
+        margin-left: 0;
+    }
+}
