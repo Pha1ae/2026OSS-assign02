@@ -18,14 +18,14 @@ This assignment explores the basic structure of HTML and the role of CSS by appl
 
 | File | Description | URL |
 | --- | --- | --- |
-| `index.html` | Main page with links to all assignment pages | [Home](https://xxxxx.vercel.app/index.html) |
-| `nostyle.html` | Basic HTML page without CSS | [No Style](https://xxxxx.vercel.app/nostyle.html) |
-| `style1.html` | Page with the first selected CSS style | [Style 1](https://xxxxx.vercel.app/style1.html) |
-| `style2.html` | Page with the second selected CSS style | [Style 2](https://xxxxx.vercel.app/style2.html) |
+| `index.html` | Main page with links to all assignment pages | [Home](https://2026-oss-assign02-gules.vercel.app/) |
+| `nostyle.html` | Basic HTML page without CSS | [No Style](https://2026-oss-assign02-gules.vercel.app/nostyle.html) |
+| `style1.html` | Page with the first selected CSS style | [Style 1](https://2026-oss-assign02-gules.vercel.app/style1.html) |
+| `style2.html` | Page with the second selected CSS style | [Style 2](https://2026-oss-assign02-gules.vercel.app/style2.html) |
 
 ## Vercel Deploy URL
 
-[Deployed Website](https://xxxxx.vercel.app)
+[Deployed Website](https://vercel.com/1-fd14/2026-oss-assign02)
 
 ## Weekly Review – Week 2
 
